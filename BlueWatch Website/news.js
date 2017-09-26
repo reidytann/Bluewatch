@@ -1,0 +1,28 @@
+$("document").ready(function(){
+    $("#pesan1").hide();
+    $("#text1").click(function()
+    {
+        $("#pesan1").slideToggle("medium");
+    });
+    $("#pesan2").hide();
+    $("#text2").click(function()
+    {
+        $("#pesan2").slideToggle("medium");
+    });
+    $("#pesan3").hide();
+    $("#text3").click(function()
+    {
+        $("#pesan3").slideToggle("medium");
+    });
+    $("#pesan4").hide();
+    $("#text4").click(function()
+    {
+        $("#pesan4").slideToggle("medium");
+    });
+    $("#pesan5").hide();
+    $("#text5").click(function()
+    {
+        $("#pesan5").slideToggle("medium");
+    });
+
+});

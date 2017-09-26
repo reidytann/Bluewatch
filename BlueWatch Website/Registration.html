@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<link rel="shortcut icon" href="favicon.ico">
+</head onload>
+<body>
+<nav>
+	<div class ="headerContainer">
+		<div align="center">
+			<img src="LogoProjectBlueWatch.png" width="25%" id="Logo">
+		</div>
+	</div>
+
+	<div class="menuContainer">
+		<ul id="navList">
+			<li><a href="Bluewatch.html"><div class="menu"><p>HOME</p></div></a></li>			
+			<div class="menu"><p>HEROES</p>
+			<div class="DropContainer">
+				<div class="menuAttack">
+					<ul>
+						<li><a href="Attack.html"><p>Attack</p></li>
+					</ul>
+				</div>
+				<div class="menuSupport">
+					<ul>
+						<li><a href="Support.html"><p>Support</p></li>
+					</ul>
+				</div>
+				<div class="menuDefense">
+					<ul>
+						<li><a href="Defense.html"><p>Defense</p></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+			<li><a href="#"><div class="menu"><p>NEWS</p></div></a></li>
+			<li><a href="Games.html"><div class="menu"><p>GAMES</p></div></a></li>
+			<li><a href="Registration.html"><div class="menu"><p>REGISTER</p></div></a></li>
+		</ul>	
+	</div>
+</nav>
+	<div id="headingImage">
+		<img src="BannerEdited.jpg" id="Banner">
+	</div>
+
+	<div class="BodyContainer">
+		<div id="regFormContainer">
+			<div id=formContent>
+							<h1>FREE ACCOUNT REGISTER</h1>
+				<form action="#.html" method="POST" name = "regis">
+					<label for="username"><b>Username</b></label>
+					<input type="text" placeholder="Your username here" id="txtUsername" required>
+				<br>
+				<p id="errorUsername"></p>
+				
+				<br>
+					<label for="Password"><b>Password</b></label>
+					<input type="Password" placeholder="Enter Password, min 8 characters" id="txtPassword" required>
+				<br>
+				<p id="errorPW"></p>
+				
+				<br>
+					<label for="PasswordConfirm" required><b>Confirm Password</b></label>
+					<input type="Password" placeholder="Confirm Password" id="txtConfirmPassword" required>
+				<br>
+				<p id="errorPWConfirm"></p>
+
+				<br>
+					<label for="Email"><b>Email</b></label>
+					<input type="text" placeholder="eg: bluewatch@blue.com" id="txtEmail" required>
+				<br>
+				<p id="errorEmail"></p>
+
+				<br>
+					<label for="Phone"><b>Phone</b></label>
+					<input type="text" placeholder="eg: 081234567890" id="txtPhone" required>
+				<br>
+				<p id="errorPhone"></p>
+
+				<br>
+					<label for="Alamat"><b>Address:</b></label>
+					<textarea rows="3px" cols="10px" id="txtAddress" placeholder="eg: 'Jalan' Budi Raya No.21" required></textarea>
+				<br>
+				<p id="errorAddress"></p>
+
+				<br>
+					<label for="Country">Current Country</label>
+					<br>
+					<select name="choose" id="selectCountry">
+						<option selected value="0">(Please select a country)</option>
+						<option value="1">Singapore</option>
+						<option value="2">Indonesia</option>
+						<option value="3">China</option>
+						<option value="4">Korea</option>
+						<option value="5">Philippines</option>
+						<option valie="6">Japan</optn>io
+					</select>
+				<br>
+				<p id="errorCombo"></p>
+
+				<label for="JenisKelamin">Gender</label>
+				<input type="radio" value="male" name="gender" id="msex" checked="checked" ><label>Male</label>
+				&nbsp;
+				<input type="radio" value="female" name="gender" id="fsex"><label>Female</label>
+				<br>
+
+				<br>
+				<p1>By creating an account you agree to our Terms & Privacy.</p1>
+				<input type="checkbox" name="agree" id="txtAgree" required><label>I Agree</label>
+
+				<br>
+				<div class="buttonProperties">
+					<button type="submit" value="Submit" class="btnSubmit" onclick="Validation()">Submit</button>
+					&nbsp;
+					<button type="reset" value="Reset" class="btnReset">Reset</button>
+				</div>
+			</form>
+			</div>
+			
+		</div>
+	</div>
+
+      <li class="sosMed">
+        <a href="http://www.facebook.com">
+          <img src="facebook.png">
+        </a>
+      </li>
+      
+      <li class="sosMed">
+        <a href="http://www.youtube.com">
+          <img src="youtube.png">
+        </a>
+      </li>
+      
+      <li class="sosMed">
+        <a href="http://www.twitter.com">
+          <img src="twitter.png">
+        </a>
+      </li>
+	<div id="FooterContainer">
+		<p>&copy 2017 COPYRIGHT BLUEWATCH STUDIOS, INC. ALL RIGHTS RESERVED</p>
+	</div>
+</body>
+	<script type="text/javascript" src="RegisScript.js"></script> 
+</html>
